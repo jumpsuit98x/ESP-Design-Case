@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ESP32-C3 Zero Holder Project Journey</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Project home">
+        <span class="brand-mark">E3</span>
+        <span>ESP32-C3 Holder Journey</span>
+      </a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="prototype-1.html">Prototype 1</a>
+        <a href="prototype-2.html">Prototype 2</a>
+        <a href="final-design.html">Final Design</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero compact">
+        <p class="eyebrow">Digital portfolio</p>
+        <h1>ESP32-C3 Zero 3D Holder Project</h1>
+        <p>
+          This website documents the design journey for a 3D printed holder that
+          keeps the ESP32-C3 Zero secure while leaving access to the USB port,
+          pins, wiring space, and cooling gaps.
+        </p>
+      </section>
+
+      <section class="content-section" id="site-map">
+        <div class="section-heading">
+          <p class="eyebrow">Site map</p>
+          <h2>How the pages are connected</h2>
+        </div>
+
+        <div class="site-map" aria-label="Website page connection map">
+          <a class="map-node home-node" href="index.html">
+            <strong>Home / Index</strong>
+            <span>Project overview and site map</span>
+          </a>
+          <div class="map-links" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <a class="map-node" href="prototype-1.html">
+            <strong>Prototype 1</strong>
+            <span>First holder test, feedback, pros, cons, improvements</span>
+          </a>
+          <a class="map-node" href="prototype-2.html">
+            <strong>Prototype 2</strong>
+            <span>Updated holder test, feedback, pros, cons, improvements</span>
+          </a>
+          <a class="map-node" href="final-design.html">
+            <strong>Final Design</strong>
+            <span>Final version and improvements made</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="content-section search-section" aria-labelledby="search-heading">
+        <div class="section-heading">
+          <p class="eyebrow">Search</p>
+          <h2 id="search-heading">Find project evidence</h2>
+        </div>
+
+        <div class="search-panel">
+          <label class="field-label" for="site-search">Search the design journey</label>
+          <input
+            id="site-search"
+            class="search-input"
+            type="search"
+            placeholder="Search USB, airflow, pins, feedback..."
+            data-search-input
+          >
+          <div class="search-results" data-search-results aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section class="content-section">
+        <div class="section-heading">
+          <p class="eyebrow">Project pages</p>
+          <h2>Journey summary</h2>
+        </div>
+
+        <div class="card-grid">
+          <article class="journey-card" data-search-card="prototype 1 first holder test usb access board fit feedback pros cons improvements">
+            <span class="card-number">01</span>
+            <h3>Prototype 1</h3>
+            <p>
+              The first print tested basic board fit, USB access, and whether
+              the holder could stop the ESP32-C3 Zero from sliding.
+            </p>
+            <a class="text-link" href="prototype-1.html">View Prototype 1</a>
+          </article>
+          <article class="journey-card" data-search-card="prototype 2 improved holder test usb cutout pin clearance wire clearance stronger walls feedback">
+            <span class="card-number">02</span>
+            <h3>Prototype 2</h3>
+            <p>
+              The second version improved the USB cutout, added pin clearance,
+              and made the walls stronger after feedback.
+            </p>
+            <a class="text-link" href="prototype-2.html">View Prototype 2</a>
+          </article>
+          <article class="journey-card" data-search-card="final design final version improvements cable access airflow board grip smoother edges">
+            <span class="card-number">03</span>
+            <h3>Final Design</h3>
+            <p>
+              The final version combines the strongest feedback into a cleaner,
+              more reliable holder ready for final presentation.
+            </p>
+            <a class="text-link" href="final-design.html">View Final Design</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="content-section feedback-section" aria-labelledby="feedback-heading">
+        <div class="section-heading">
+          <p class="eyebrow">Feedback</p>
+          <h2 id="feedback-heading">Submit project feedback</h2>
+        </div>
+
+        <div class="feedback-layout">
+          <form class="feedback-form" data-feedback-form>
+            <label>
+              <span class="field-label">Name</span>
+              <input name="name" type="text" autocomplete="name" required>
+            </label>
+
+            <label>
+              <span class="field-label">Page reviewed</span>
+              <select name="page" required>
+                <option value="">Choose a page</option>
+                <option>Prototype 1</option>
+                <option>Prototype 2</option>
+                <option>Final Design</option>
+                <option>Whole website</option>
+              </select>
+            </label>
+
+            <label>
+              <span class="field-label">Feedback</span>
+              <textarea
+                name="message"
+                rows="5"
+                minlength="10"
+                placeholder="Write what works well or what could be improved."
+                required
+              ></textarea>
+            </label>
+
+            <button type="submit">Submit feedback</button>
+            <p class="form-status" data-feedback-status aria-live="polite"></p>
+          </form>
+
+          <div class="feedback-submissions">
+            <h3>Latest submissions</h3>
+            <div data-feedback-list></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>ESP32-C3 Zero Holder Project</span>
+      <span>Design journey portfolio</span>
+    </footer>
+  </body>
+</html>
