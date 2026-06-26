@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="675" viewBox="0 0 900 675">
+  <rect width="900" height="675" fill="#fbfaf7"/>
+  <rect x="70" y="70" width="760" height="535" rx="26" fill="#ffffff" stroke="#d9e0df" stroke-width="4"/>
+  <text x="95" y="120" font-family="Arial" font-size="34" font-weight="700" fill="#172026">Final Design</text>
+  <text x="95" y="158" font-family="Arial" font-size="20" fill="#5f6f7a">Rounded holder with wide access, corner stops, and airflow gap.</text>
+  <rect x="165" y="238" width="570" height="282" rx="36" fill="#e7f4f1" stroke="#0f766e" stroke-width="6"/>
+  <rect x="220" y="292" width="460" height="172" rx="16" fill="#2f3b42"/>
+  <rect x="152" y="328" width="88" height="62" rx="16" fill="#fbfaf7" stroke="#0f766e" stroke-width="4"/>
+  <rect x="660" y="328" width="88" height="62" rx="16" fill="#fbfaf7" stroke="#0f766e" stroke-width="4"/>
+  <rect x="364" y="220" width="172" height="62" rx="14" fill="#fbfaf7" stroke="#0f766e" stroke-width="4"/>
+  <rect x="368" y="304" width="164" height="36" rx="8" fill="#b7791f"/>
+  <rect x="247" y="252" width="32" height="32" rx="8" fill="#fff4d8" stroke="#b7791f" stroke-width="3"/>
+  <rect x="621" y="252" width="32" height="32" rx="8" fill="#fff4d8" stroke="#b7791f" stroke-width="3"/>
+  <path d="M315 502h270" stroke="#b7791f" stroke-width="10" stroke-linecap="round" stroke-dasharray="22 18"/>
+  <text x="306" y="550" font-family="Arial" font-size="22" font-weight="700" fill="#0f766e">Secure, accessible, and lighter</text>
+  <text x="292" y="580" font-family="Arial" font-size="18" fill="#5f6f7a">Final changes solve the main issues from testing.</text>
+</svg>

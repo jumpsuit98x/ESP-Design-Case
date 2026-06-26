@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="675" viewBox="0 0 900 675">
+  <rect width="900" height="675" fill="#fbfaf7"/>
+  <rect x="70" y="90" width="760" height="480" rx="22" fill="#ffffff" stroke="#d9e0df" stroke-width="4"/>
+  <text x="100" y="145" font-family="Arial" font-size="31" font-weight="700" fill="#172026">Prototype 1 Feedback Table</text>
+  <rect x="100" y="185" width="700" height="54" fill="#e7f4f1"/>
+  <text x="122" y="219" font-family="Arial" font-size="18" font-weight="700" fill="#0f766e">Issue</text>
+  <text x="360" y="219" font-family="Arial" font-size="18" font-weight="700" fill="#0f766e">Severity</text>
+  <text x="520" y="219" font-family="Arial" font-size="18" font-weight="700" fill="#0f766e">Action</text>
+  <line x1="100" y1="285" x2="800" y2="285" stroke="#d9e0df" stroke-width="3"/>
+  <line x1="100" y1="365" x2="800" y2="365" stroke="#d9e0df" stroke-width="3"/>
+  <line x1="100" y1="445" x2="800" y2="445" stroke="#d9e0df" stroke-width="3"/>
+  <text x="122" y="268" font-family="Arial" font-size="18" fill="#172026">USB opening too tight</text>
+  <text x="360" y="268" font-family="Arial" font-size="18" fill="#c2410c">High</text>
+  <text x="520" y="268" font-family="Arial" font-size="18" fill="#172026">Widen cutout</text>
+  <text x="122" y="348" font-family="Arial" font-size="18" fill="#172026">Hinges too short</text>
+  <text x="360" y="348" font-family="Arial" font-size="18" fill="#b7791f">Medium</text>
+  <text x="520" y="348" font-family="Arial" font-size="18" fill="#172026">Lengthen hinges</text>
+  <text x="122" y="428" font-family="Arial" font-size="18" fill="#172026">Top buttons hard to press</text>
+  <text x="360" y="428" font-family="Arial" font-size="18" fill="#c2410c">High</text>
+  <text x="520" y="428" font-family="Arial" font-size="18" fill="#172026">Add button clearance</text>
+  <text x="122" y="508" font-family="Arial" font-size="18" fill="#172026">Needs air holes and spacing</text>
+  <text x="360" y="508" font-family="Arial" font-size="18" fill="#c2410c">High</text>
+  <text x="520" y="508" font-family="Arial" font-size="18" fill="#172026">Add vents, adjust distance</text>
+</svg>
